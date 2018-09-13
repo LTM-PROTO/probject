@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS原声实现扫雷游戏</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--开始按钮-->
+        <div class="btn" id="btn">
+            <div class="start"></div>
+        </div>
+        <!--游戏主体-->
+        <div class="box" id="box"></div>
+        <!--文字显示-->
+        <div class="flagBox" id="flagBox">
+            当前剩余雷数：
+            <span id="score">10</span>
+        </div>
+        <!--遮罩层 弹出 区域-->
+        <div class="alertBox" id="alertBox">
+            <div class="alertImg">
+                <div class="close" id="closeBtn"></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

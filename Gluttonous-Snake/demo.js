@@ -3,7 +3,6 @@
 //上下左右---> 改变方向运动
 //判断是否吃到食物 -- 食物消失---蛇加一
 //判断游戏结束，弹出框
-
 var content = document.getElementById('content');
 var startPage = document.getElementById('startPage');
 var scoreBox = document.getElementById('score');
@@ -17,7 +16,7 @@ var speed = 200;
 var startGameBool = true;
 var startPaushBool = true;
 init();
-
+// startGame()
 function init() {
     //地图
     this.mapW = parseInt(getComputedStyle(content).width);
@@ -40,6 +39,8 @@ function init() {
     this.down = true;
     //分数
     this.score = 0;
+    bindEvent();
+
 }
 
 function startGame() {
@@ -49,7 +50,6 @@ function startGame() {
     food();
     //snake蛇
     snake();
-    bindEvent();
 }
 
 function food() {
@@ -62,7 +62,7 @@ function food() {
     food.style.left = this.foodX * 20 + "px";
     food.style.top = this.foodY * 20 + "px";
     this.mapDiv.appendChild(food).setAttribute('class', 'food');
-    //更改蛇头图片方向
+    // 更改蛇头图片方向
     // switch (this.direct) {
     //     case 'right' :
     //         break;
@@ -172,6 +172,9 @@ function relodGame() {
     //分数
     this.score = 0;
     scoreBox.innerHTML = this.score;
+    startGameBool = true;
+    startPaushBool = true;
+    startP.setAttribute('src', './img/start.png')
 }
 
 function removeClass(className) {

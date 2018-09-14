@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.startPage {
+    width: 100%;
+    z-index: 999;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.startBtn {
+    background-color: rgba(43,82,255,0.8);
+    height: 100px;
+    line-height: 100px;
+    width: 200px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+    text-align: center;
+    border: 1px solid rgba(77,255,72,0.8);
+}
+.wrapper {
+    width: 100%;
+    height: 1000px;
+    background-image: url(./img/beijing.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.left-side {
+    width: 24%;
+    position: absolute;
+    height: 1000px;
+    border: 1px solid black;
+}
+.hidden {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.left-side img {
+    /*display: none;*/
+    position: absolute;
+    top: -12px;
+    left: -12px;
+}
+.main {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 90%;
+    border: 1px solid black;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.score {
+    line-height: 80px;
+    color: #ddd;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.content {
+    position: absolute;
+    width: 79.5%;
+    height: 36.5%;
+    left: 10%;
+    top: 34%;
+    border: 1px solid red;
+}
+.loser {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    top: 0;
+    left: 0;
+}
+.con {
+    background-image: url(./img/score.png);
+    background-size: 100% 100%;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+}
+.loserScore {
+    display: block;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    color: #222;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 40px;
+    width: 40px;
+    background-image: url('./img/colse.png');
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.food {
+    background-color: #e5183b;
+}
+.head {
+    background-color: #425cfb;
+}
+.body {
+    background-color: #425cfb;
+}

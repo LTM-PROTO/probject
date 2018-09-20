@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.outer {
+    /*设置盒子的宽高*/
+    width: 1210px;
+    height: 410px;
+    /*居中*/
+    margin: 10px auto;
+    background-color: yellowgreen;
+    /*溢出隐藏*/
+    overflow: hidden;
+    padding: 10px 0;
+    /*相对定位*/
+    position: relative;
+}
+#imgList {
+    list-style: none;
+    /*js设置 不能写死*/
+    /*width: 6050px;*/
+    /*绝对定位*/
+    position: absolute;
+    /*图片偏移量js写 不能写死*/
+    /*left: -1210px;*/
+}
+#imgList li {
+    /*浮动li标签让图片横向*/
+    float: left;
+    margin: 0 10px;
+}
+#navDiv {
+    position: absolute;
+    bottom: 20px;
+    /*居中显示导航栏 不能写死 用js实现*/
+    /*left: 542px;*/
+}
+#navDiv a {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    float: left;
+    margin: 0 5px;
+    opacity: 0.9;
+    /*兼容ie8*/
+    /*filter: alpha(opacity = 80);*/
+    border-radius: 50%;
+}
+#navDiv a:hover {
+    /*opacity: .5;*/
+}

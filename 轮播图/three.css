@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slide {
+    width: 1190px;
+    height: 410px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto;
+}
+.slide-img {
+    list-style: none;
+    position: absolute;
+}
+.slide-img li {
+    float: left;
+}
+.nav {
+    position: absolute;
+    bottom: 15px;
+}
+.nav a {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+

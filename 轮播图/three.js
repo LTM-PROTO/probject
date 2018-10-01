@@ -14,8 +14,10 @@ window.onload = function () {
 
     /*a绑定事件*/
     var aArr = document.getElementsByTagName('a');
+    var index = 0;
     aArr[0].style.opacity = '0.5';
     for (var i = 0; i < aArr.length; i++) {
+        // index = i;
         (function (x) {
             aArr[x].onmouseover = function () {
                 slideImg.style.left = -1190 * x + 'px';
@@ -25,6 +27,16 @@ window.onload = function () {
                 this.style.opacity = '0.5'
             }
         })(i);
+    }
+
+    //自动切换图片
+    function autoChange() {
+        //定时器
+        setImmediate(
+            function () {
+                index ++
+
+            }, 3000)
     }
 
 };

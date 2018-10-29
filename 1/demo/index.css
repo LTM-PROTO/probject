@@ -1,0 +1,559 @@
+/*公共样式*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: #555;
+  font-size: 12px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+img, i {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.l {
+  float: left;
+}
+
+.r {
+  float: right;
+}
+
+.clear:after,
+.clear:before {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/*头部*/
+.header {
+  width: 100%;
+  border-top: 7px solid #003c62;
+}
+
+/*title*/
+.nav-top {
+  margin-top: 2px;
+  border-top: 2px solid #e9f2f5;
+  border-bottom: 4px solid #f2f2f2;
+}
+
+.top-b {
+  border-bottom: 1px solid #f0f7f8;
+  margin-bottom: 2px;
+  background: -webkit-linear-gradient(top, rgb(233, 242, 245), rgb(255, 255, 255));
+}
+
+.top-b .nav-logo {
+  margin: 10px;
+  width: 48px;
+  height: 37px;
+  background: url("../assets/logo copy.png") no-repeat;
+}
+
+.top-b .head {
+  font-size: 18px;
+  font-family: "Adobe Heiti Std";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 63.126px;
+  top: 22.818px;
+  z-index: 21;
+}
+
+.top-b .head-b {
+  font-size: 9px;
+  font-family: "HelveticaLTStd";
+  color: rgb(116, 115, 115);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 64.547px;
+  top: 45.18px;
+  z-index: 22;
+}
+
+/*导航*/
+.nav-bottom {
+  margin-top: 4px;
+}
+
+.bottom-r {
+  width: 100%;
+  height: 3px;
+  background: #eec3c7;
+  border-top: 1px solid #ac1a35;
+}
+
+.bottom-n {
+  background: url("../assets/nav.jpg");
+  background-size: 100% 100%;
+  text-align: center;
+  border-top: 1px solid #ac1a35;
+}
+
+.bottom-n ul {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.bottom-n ul li {
+  padding: 9px 16.5px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+
+}
+
+.bottom-n ul .r-b {
+  border: 1px solid #ac1a35;
+  background: #d8626f;
+  border-top: none;
+}
+
+/*bj*/
+.bg {
+  background: url("../assets/bj.png");
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/*轮播图*/
+.main {
+  /*overflow: hidden;*/
+  width: 980px;
+  margin: 0 auto;
+}
+
+.left-img {
+  position: relative;
+  width: 749px;
+  height: 266px;
+  border-radius: 2px;
+  background: #fff;
+  margin: 9px 0px;
+}
+
+.img-b {
+  padding: 8px 6px;
+}
+
+.img-b li img {
+  width: 738px;
+  height: 251px;
+}
+
+/*选项卡*/
+.left-img .position {
+  position: absolute;
+  bottom: 7px;
+  right: 5px;
+  background: #ffffff;
+  width: 738px;
+  height: 30px;
+  opacity: 0.4;
+}
+
+.position ul {
+  position: absolute;
+  right: 5px;
+  top: 7.5px;
+}
+
+.position ul li {
+  background: url("../assets/xingzhuang7.png") no-repeat 100% 100%;
+  float: left;
+  width: 18px;
+  height: 17px;
+  /*background: #fafafa;*/
+  border-radius: 2px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*!*item*!********************/
+.right-item {
+  margin: 9px 0;
+}
+
+.right-item,
+.contact {
+  width: 220px;
+  height: 266px;
+  position: relative;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.contact {
+  height: 224px;
+}
+
+.right-item .item-t,
+.contact .icon-t {
+  width: 210px;
+  height: 27px;
+  background: #303338;
+  margin: 5px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.item-t .icon-t i {
+  position: absolute;
+  background: url("../assets/xingzhuang.png") no-repeat;
+  width: 9px;
+  height: 9px;
+  top: 9px;
+  left: 6px;
+}
+
+.icon-t span {
+  line-height: 27px;
+  margin-left: 18px;
+  color: #fff;
+}
+
+.icon-t .t-l {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.icon-t .t-r {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+/**/
+.item-con {
+  /*background: #bcffc9;*/
+}
+
+.item-con ul li {
+  height: 44px;
+  line-height: 44px;
+  border-bottom: 1px dashed #ccc;
+  box-sizing: border-box;
+}
+
+.item-con ul li a {
+  color: #000;
+  font-size: 14px;
+}
+
+.item-con ul .ds,
+.new-l .con .ds {
+  border-bottom: none;
+}
+
+.item-con ul .img1 {
+  margin: 5px 5px;
+}
+
+/*信息 公告*******************/
+.msg {
+  width: 980px;
+  margin: 0 auto;
+  height: 35px;
+  background: #f6f6f6;
+  border-radius: 2px;
+  position: relative;
+}
+
+.msg-icon {
+  background: url("../assets/msg.png");
+  width: 20px;
+  height: 21px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.msg-icon i {
+  background: url("../assets/msg2.png");
+  width: 11px;
+  height: 10px;
+  position: absolute;
+  top: 5px;
+  left: 4px;
+}
+
+.msg h6 {
+  line-height: 35px;
+  margin-left: 39px;
+}
+
+.msg p {
+  line-height: 35px;
+  margin-left: 46px;
+  padding-right: 20px;
+}
+
+/*关于我们*/
+.content {
+  width: 980px;
+  margin: 0 auto;
+  /*background: #f6f6f6;*/
+  border-radius: 2px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.aboutUs {
+  width: 277px;
+  height: 266px;
+  position: relative;
+  border-radius: 2px;
+  background: #fff;
+  overflow: hidden;
+  margin: 9px 7px 9px 0;
+}
+
+.aboutUs .icon-t {
+  width: 267px;
+  height: 27px;
+  background: #303338;
+  color: #fff;
+  margin: 5px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.aboutUs .icon-t i {
+  position: absolute;
+  background: url("../assets/xingzhuang.png") no-repeat;
+  width: 9px;
+  height: 9px;
+  top: 9px;
+  left: 6px;
+}
+
+.aboutUs img {
+  width: 263px;
+  height: 135px;
+  margin: 6px;
+}
+
+.aboutUs p {
+  color: #303338;
+  font-size: 12px;
+  line-height: 1.3;
+  width: 260px;
+  height: 60px;
+  margin: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.security {
+  width: 221px;
+  height: 266px;
+  background: #fff;
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 9px 7px 9px 7px;
+}
+
+.theCrew {
+  width: 221px;
+  height: 266px;
+  background: #fff;
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 9px 7px 9px 7px;
+}
+
+.logistics {
+  width: 221px;
+  height: 266px;
+  background: #fff;
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 9px 0 9px 5px;
+}
+
+.security .title,
+.theCrew .title,
+.logistics .title {
+  width: 205px;
+  height: 27px;
+  margin: 5px;
+  position: relative;
+}
+
+.security .title i,
+.theCrew .title i,
+.logistics .title i,
+.new-l .icon-t i,
+.contact .icon-t i {
+  position: absolute;
+  background: url("../assets/xingzhuang.png") no-repeat;
+  width: 9px;
+  height: 9px;
+  top: 9px;
+  left: 6px;
+}
+
+.security .title span,
+.theCrew .title span,
+.logistics .title span {
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-left: 20px;
+}
+
+.security img,
+.theCrew img,
+.logistics img {
+  width: 206px;
+  height: 135px;
+  margin: 7px;
+}
+
+.security p,
+.theCrew p,
+.logistics p {
+  width: 206px;
+  height: 44px;
+  margin: 7px;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.security > span,
+.theCrew > span,
+.logistics > span {
+  position: absolute;
+  right: 10px;
+}
+
+/*new */
+
+.new {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.new-l {
+  height: 224px;
+  border-radius: 2px;
+  position: relative;
+  width: 749px;
+  background: #fff;
+  /*margin-bottom: 10px;*/
+}
+
+.new-l .icon-t {
+  position: relative;
+  width: 735px;
+  height: 27px;
+  margin: 5px;
+  border-radius: 2px;
+  background: #303338;
+}
+
+.new-l .con {
+  margin: 0 9px;
+}
+
+.new-l .con ul li {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.new-l .con ul li > i {
+  width: 6px;
+  height: 9px;
+  background: url("../assets/new xz.png");
+  position: absolute;
+  top: 10px;
+}
+
+.new-l .con ul li a {
+  margin-left: 18px;
+  color: #333;
+  position: relative;
+}
+
+.new-l .con ul li a i {
+  width: 21px;
+  height: 17px;
+  position: absolute;
+  top: -3px;
+  right: -25px;
+  background: url("../assets/Layer 53.png") no-repeat;
+}
+
+.date {
+  float: right;
+}
+
+/*联系我们*/
+.contact .tab ul li {
+  width: 205px;
+  height: 53px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 8px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/*footer*/
+.footer {
+  width: 980px;
+  margin: 10px auto;
+  background: #303338;
+  border-radius: 3px;
+}
+
+.footer .footer-c {
+  width: 980px;
+  height: 88px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+
+}
+
+.footer .footer-c p {
+  color: #fff;
+  font-size: 14px;
+}

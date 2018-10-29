@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body {
+      /*text-align: center;*/
+    }
+  </style>
+</head>
+<body>
+
+<script type="text/javascript">
+  for (let i = 0; i < 10; i++) {
+    for (let j = 10; j > i; j--) {
+      document.write('*')
+    }
+    document.write('<br/>')
+  }
+
+  for (let i = 1; i <=9; i++) {
+    for (let j = 1; j <= i; j++) {
+      document.write(j + '*' + i + '=' + i * j + ' ');
+    }
+    document.write('<br/>');
+  }
+</script>
+</body>
+</html>

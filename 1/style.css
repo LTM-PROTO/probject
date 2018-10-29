@@ -1,0 +1,105 @@
+/*
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.l {
+  float: left;
+}
+.r {
+  float: right;
+}
+.clearF:after,
+.clearF:before {
+  content: '';
+  display: block;
+  clear: both;
+}
+.main {
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  margin: 0 auto;
+  width: 400px;
+}
+/**/
+.one,
+.two,
+.three {
+  width: 400px;
+  text-align: center;
+}
+.one-a,
+.one-c,
+.three-d,
+.three-e,
+.foot-a,
+.foot-b,
+.foot-c,
+.foot-d,
+.foot-e,
+.foot-f {
+  width: 100px;
+  height: 100px;
+}
+.one-a,
+.two-d,
+.two-f,
+.three-d,
+.foot-a,
+.foot-e {
+  background-color: #bcffc9;
+}
+.one-c,
+.two-b,
+.three-e,
+.foot-d {
+  background-color: #cdc8ff;
+}
+.one-b,
+.three-c {
+  width: 200px;
+  height: 100px;
+}
+.one-b,
+.two-e,
+.three-a,
+.three-c,
+.foot-c,
+.foot-f {
+  background-color: #ffc9ca;
+}
+/*two*/
+.two-a,
+.three-a,
+.three-b{
+  width: 100px;
+  height: 200px;
+}
+.two-a,
+.two-c,
+.two-g,
+.three-b,
+.foot-b {
+  background-color: #cbcccd;
+}
+.two-b,
+.two-c,
+.two-d,
+.two-e,
+.two-f,
+.two-g{
+  width: 100px;
+  height: 100px;
+}
+/*three*/
+ .footer{
+   width: 600px;
+   margin: 0 auto;
+   text-align: center;
+}
+

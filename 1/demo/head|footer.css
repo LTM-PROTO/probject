@@ -1,0 +1,128 @@
+/*头部*/
+.header {
+  width: 100%;
+  border-top: 7px solid #003c62;
+}
+
+/*title*/
+.nav-top {
+  margin-top: 2px;
+  border-top: 2px solid #e9f2f5;
+  border-bottom: 4px solid #f2f2f2;
+}
+
+.top-b {
+  border-bottom: 1px solid #f0f7f8;
+  margin-bottom: 2px;
+  background: -webkit-linear-gradient(top, rgb(233, 242, 245), rgb(255, 255, 255));
+}
+
+.top-b .nav-logo {
+  margin: 10px;
+  width: 48px;
+  height: 37px;
+  background: url("../assets/logo copy.png") no-repeat;
+}
+
+.top-b .head {
+  font-size: 18px;
+  font-family: "Adobe Heiti Std";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 63.126px;
+  top: 22.818px;
+  z-index: 21;
+}
+
+.top-b .head-b {
+  font-size: 9px;
+  font-family: "HelveticaLTStd";
+  color: rgb(116, 115, 115);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 64.547px;
+  top: 45.18px;
+  z-index: 22;
+}
+
+/*导航*/
+.nav-bottom {
+  margin-top: 4px;
+}
+
+.bottom-r {
+  width: 100%;
+  height: 3px;
+  background: #eec3c7;
+  border-top: 1px solid #ac1a35;
+}
+
+.bottom-n {
+  background: url("../assets/nav.jpg");
+  background-size: 100% 100%;
+  text-align: center;
+  border-top: 1px solid #ac1a35;
+}
+
+.bottom-n ul {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.bottom-n ul li {
+  padding: 9px 16.5px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  border: 1px solid rgba(255,255,255,0);
+  border-top: none;
+}
+
+.bottom-n ul li a {
+  color: rgb(255, 255, 255);
+}
+
+.bottom-n ul li:hover {
+  border: 1px solid #ac1a35;
+  background: #d8626f;
+  border-top: none;
+}
+
+.bottom-n ul .r-b {
+  border: 1px solid #ac1a35;
+  background: #d8626f;
+  border-top: none;
+}
+/*bj*/
+.bg {
+  background: url("../assets/bj.png");
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+/*footer*/
+.footer {
+  width: 980px;
+  margin: 10px auto;
+  background: #303338;
+  border-radius: 3px;
+}
+
+.footer .footer-c {
+  width: 980px;
+  height: 88px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+
+}
+
+.footer .footer-c p {
+  color: #fff;
+  font-size: 14px;
+}

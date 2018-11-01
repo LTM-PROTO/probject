@@ -1,0 +1,57 @@
+/*物业管理*/
+.content>p {
+  text-indent: 2em;
+}
+.content p,
+.content .item-b .item-r span,
+.content .item-b .item-r p {
+  font-size: 14px;
+}
+.content .item-b ul,
+.content p {
+  margin: 19px;
+}
+.content .item-b ul li {
+  border-top: 1px dashed #ccc;
+  height: 132px;
+  display: flex;
+  flex-direction: row;
+}
+
+.content .item-b ul li img{
+  width: 159px;
+  height: 103px;
+  margin: 8px;
+}
+
+.content .item-b .item-r span{
+  margin: 8px;
+  width: 155px;
+  height: 24px;
+  line-height: 24px;
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+}
+.content .item-b .item-r p {
+  margin: 15px;
+  color: #333;
+  font-family: "微软雅黑";
+}
+.content .item-b .item-r .bgc1 {
+  background-color: #006766;
+}
+.content .item-b .item-r .bgc2 {
+  background-color: #989933;
+}
+.content .item-b .item-r .bgc3 {
+  background-color: #b065cc;
+}
+.content .item-b .item-r .bgc4 {
+  background-color: #cc6601;
+}
+.content .item-b .item-r .bgc5 {
+  background-color: #cc6566;
+}

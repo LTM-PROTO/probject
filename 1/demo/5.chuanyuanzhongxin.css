@@ -1,0 +1,40 @@
+/*船员中心*/
+
+.logistics ul {
+  margin-left:300px;
+}
+.logistics ul li {
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+}
+.logistics  img {
+  width: 268px;
+  height: 203px;
+  margin: 10px 10px;
+}
+.logistics-r span  {
+  margin: 10px;
+  width: 155px;
+  height: 24px;
+  line-height: 24px;
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.logistics p {
+  margin: 15px;
+  color: #333;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+.logistics .bgc2 {
+  background: #989933;
+}
+.logistics .bgc1 {
+  background:#006766;
+}

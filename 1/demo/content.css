@@ -1,0 +1,35 @@
+/*主体内容*/
+.content {
+  width: 980px;
+  margin: 10px auto;
+  background: #fff;
+  overflow: hidden;
+}
+/*标题*/
+.title {
+  width: 960px;
+  height: 27px;
+  background: #303338;
+  margin: 10px;
+  position: relative;
+}
+.content, .title {
+  border-radius: 3px;
+}
+/*标题图标*/
+.title i {
+  position: absolute;
+  background: url("../assets/xingzhuang.png") no-repeat;
+  width: 9px;
+  height: 9px;
+  top: 9px;
+  left: 6px;
+}
+/*标题文字*/
+.title span {
+  line-height: 27px;
+  margin-left: 20px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}

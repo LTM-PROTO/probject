@@ -1,0 +1,26 @@
+.content .main {
+  height: 562px;
+  padding: 0 20px;
+}
+
+.content .main h2 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.content .main p {
+  margin-left: 22px;
+}
+
+.content .main h3,
+.content .main span {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.content .main p,
+.content .main span {
+  text-indent: 2em;
+  line-height: 1.5;
+  font-size: 14px;
+}

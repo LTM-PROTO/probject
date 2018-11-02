@@ -1,0 +1,26 @@
+
+.x-x {
+  height: 445px;
+  border-top: 1px dashed #ccc;
+  margin: 100px 22px 30px 22px;
+  text-align: center;
+  padding-top: 17px;
+  position: relative;
+}
+.x-x span {
+  font-size: 15px;
+}
+
+.x-x span,
+.x-x p {
+  color: #333;
+  margin: 10px;
+}
+.x-x img {
+  width: 500px;
+  height: 334px;
+  position: absolute;
+  top: 95px;
+  left: 50%;
+  margin-left: -250px;
+}

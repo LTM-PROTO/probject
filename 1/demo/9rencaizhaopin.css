@@ -1,0 +1,34 @@
+
+/*
+*/
+
+.title-t {
+  text-align: center;
+}
+.title-t h3,p {
+  font-size: 16px;
+  margin: 10px;
+}
+.title-t .tab {
+  border-top: 1px dashed #ccc;
+  margin: 15px;
+  width: 100%;
+  height: 500px;
+}
+
+.tab table {
+  width: 850px;
+  margin: 30px auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+.tab table tr .bgc {
+  background: #318c5f;
+  color: #fff;
+}
+.tab table th, td {
+  width:258px;
+  height:34px;
+  border :1px solid #318c5f;
+  font-size:14px;
+}

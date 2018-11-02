@@ -1,0 +1,78 @@
+.con {
+  margin: 10px 20px;
+  position: relative;
+}
+
+.con > ul li {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  padding: 3px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.con > ul li > i {
+  width: 6px;
+  height: 9px;
+  background: url("../assets/new xz.png");
+  position: absolute;
+  top: 10px;
+}
+
+.con > ul li a {
+  margin-left: 18px;
+  color: #333;
+  font-size: 14px;
+  position: relative;
+}
+
+.con > ul li a i {
+  width: 21px;
+  height: 17px;
+  position: absolute;
+  top: -3px;
+  right: -25px;
+  background: url("../assets/Layer 53.png") no-repeat;
+}
+
+.date {
+  float: right;
+}
+
+.x-b {
+  margin: 20px 0;
+}
+
+.x-b ul li {
+  position: relative;
+  float: left;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  border: 1px solid #9dd3e2;
+  margin-left: 20px;
+}
+
+.x-b ul li a {
+  color: #9dd3e2;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.x-b ul .i,
+.x-b ul .j {
+  position: absolute;
+  width: 7px;
+  height: 10px;
+  top: 3px;
+  left: 4px;
+}
+
+.x-b ul .i {
+  background: url("../assets/xz26.png") no-repeat;
+}
+
+.x-b ul .j {
+  background: url("../assets/xz27.png") no-repeat;
+}

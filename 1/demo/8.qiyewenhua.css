@@ -1,0 +1,51 @@
+.qywh .t .r-r .img2{
+  position: relative;
+}
+.qywh .t .l-l .img1{
+  margin:20px 45px 45px 54px ;
+
+}
+.qywh .t .r-r .img2 {
+  margin:20px 45px 45px 0;
+}
+.qywh .t .l-l .img1,
+.qywh .t .l-l .img1,
+.qywh .t .r-r .img2,
+.b .img1{
+  border: 1px solid #ccc;
+  padding: 18px;
+  background: #f7f7f5;
+}
+.qywh .t .r-r .img2 .text {
+  position: absolute;
+  bottom: 18px;
+  width: 523px;
+  height: 70px;
+  background: rgba(0,0,0, 0.5);
+}
+.text span {
+  color: #fff;
+}
+.text .t-t {
+  display: block;
+  margin-top: 17px;
+}
+.line .l-1 {
+  font-size: 13px;
+}
+.text .t-t,
+.line .l-2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.line .l-1,
+.line .l-2,
+.text .t-t {
+  margin-left: 25px;
+}
+.b {
+  margin-bottom: 20px;
+}
+.b .img1 {
+  margin-left: 54px;
+}

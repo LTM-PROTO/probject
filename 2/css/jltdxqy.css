@@ -1,0 +1,67 @@
+/*
+监理团队详情页
+*/
+.praise {
+  height: 17.78125rem;
+  background: url(../img/jltdxqy/xqybj1.gif) no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.praise .praise-text {
+  text-align: center;
+  font-size: 0.40625rem;
+  color: #fff;
+  margin-top: 11.515625rem;
+}
+.praise .praise-amount {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: #ffa851;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-top: 1.515625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.praise .praise-amount img {
+  width: 0.546875rem;
+  height: 0.8125rem;
+}
+.praise .praise-amount span {
+  font-size: 0.328125rem;
+  color: #fff;
+  font-weight: 700;
+}
+.praise .praise-amount:hover {
+  background-color: #ff913e;
+}
+.praise .tab {
+  display: flex;
+  flex-direction: row;
+  height: 0.203125rem;
+  margin-top: 0.625rem;
+}
+.praise .tab a {
+  width: 0.203125rem;
+  height: 0.203125rem;
+  background: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: 0.109375rem;
+}
+.praise .tab a:hover {
+  background-color: #ffa851;
+}
+.praise .tab a:active {
+  background-color: #FF913E;
+}
+.praise .tab .ys {
+  background-color: #ff913e;
+}

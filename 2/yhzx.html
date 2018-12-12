@@ -2,19 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>账号设置</title>
+  <title>用户中心</title>
   <script src="js/flexible_css.debug.js"></script>
   <script src="js/flexible.debug.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/head,footer.css">
   <link rel="stylesheet" href="css/iconfont.css">
   <link rel="stylesheet" href="css/zhsz.css">
+  <style>
+    a:hover {
+      color: #c6c6c6;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
 <!--抬头开始-->
 <div class="Lift-head">
   <div class="l-jt iconfont">&#xe611</div>
-  <div class="middle">账号设置</div>
+  <div class="middle">用户中心</div>
   <div class="iconfont r-menu">&#xe612</div>
 </div>
 <!--抬头结束-->
@@ -35,26 +41,21 @@
 <div class="wrapper">
   <div class="wrapper-list">
     <div class="list-item clear">
-      <span class="l item-l">昵称：</span>
-      <input class="l" type="text" name="user" placeholder="Andi">
+      <a class="l item-ml">我的工地</a>
       <div class="item-r r clear">
-        <span class="item-r-r">修改</span>
         <p class="item-r-jt r iconfont">&#xe60e</p>
       </div>
     </div>
     <div class="list-item clear">
-      <span class="l item-l">性别：</span>
-      <input class="l" type="text" name="user" placeholder="男">
+      <a class="l item-ml">我的评论</a>
       <div class="item-r r clear">
-        <span class="item-r-r">修改</span>
         <p class="item-r-jt r iconfont">&#xe60e</p>
       </div>
     </div>
     <div class="list-item clear">
       <span class="l item-l"></span>
-      <input class="l item-ml" type="text" name="user" placeholder="修改密码">
+      <a class="l item-ml">账号设置</a>
       <div class="item-r r clear">
-        <span class="item-r-r">修改</span>
         <p class="item-r-jt r iconfont">&#xe60e</p>
       </div>
     </div>
@@ -62,7 +63,7 @@
 </div>
 <div class="btn-wr">
   <div class="wr-sub">
-    <input type="submit" value="修改成功">
+    <input type="submit" value="退出登录">
   </div>
 </div>
 </body>
